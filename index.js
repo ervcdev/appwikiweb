@@ -28,4 +28,4 @@ app.use(express.json());
 app.use("/api/v1/links", linkRouter);
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log("hola", "http://localhost:5000/index.html"));
+app.listen(PORT, () => console.log("hola"/*, "http://localhost:5000/index.html"*/));
